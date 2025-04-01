@@ -1,0 +1,6 @@
+config:
+  aws:region: us-west-2
+  pulumi:template: static-website-aws-typescript
+  re-invent-future:errorDocument: error.html
+  re-invent-future:indexDocument: index.html
+  re-invent-future:path: ./www
